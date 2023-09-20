@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Form from '../../components/categories/form.svelte'
+
+---
+<Layout title="Editar categoría">
+	<h1>Editar categoría</h1>
+    <Form is_update={true} client:visible></Form>
+</Layout>

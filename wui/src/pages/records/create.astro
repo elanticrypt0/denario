@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Form from '../../components/records/form.svelte'
+
+---
+<Layout title="Nuevo registro">
+	<h1>Nuevo registro</h1>
+    <Form is_update={false} client:visible></Form>
+</Layout>

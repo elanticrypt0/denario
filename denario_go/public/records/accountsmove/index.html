@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Astro description">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" href="/favicon.ico">
+		<meta name="generator" content="Astro v2.10.9">
+		<title>Denario v3 :: Nuevo registro</title>
+	<link rel="stylesheet" href="/_astro/index.6f7f49a7.css" /></head>
+	<body>
+		<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="/" class="flex items-center">
+        <img src="denario.png" width="24">
+        <span class="self-center whitespace-nowrap text-xl font-semibold ml-2">
+        Denario <small>v3</small></span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="/" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="/categories" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Categorías</a>
+          </li>
+          <li>
+            <a href="/fixed" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gastos fijos</a>
+          </li>
+          <li>
+            <a href="/accounts" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Cuentas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+		<main class="flex-l w-full px-10 mt-5">
+			
+	<h1>Nuevo registro</h1>
+    <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var r=(i,c,n)=>{let s=async()=>{await(await i())()},t=new IntersectionObserver(e=>{for(let o of e)if(o.isIntersecting){t.disconnect(),s();break}});for(let e of n.children)t.observe(e)};(self.Astro||(self.Astro={})).visible=r;window.dispatchEvent(new Event("astro:visible"));})();;(()=>{var d;{let p={0:t=>u(t),1:t=>l(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(l(t)),5:t=>new Set(l(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t)},h=t=>{let[e,n]=t;return e in p?p[e](n):void 0},l=t=>t.map(h),u=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([e,n])=>[e,h(n)]));customElements.get("astro-island")||customElements.define("astro-island",(d=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=async()=>{var i;if(!this.hydrator||!this.isConnected)return;let e=(i=this.parentElement)==null?void 0:i.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let n=this.querySelectorAll("astro-slot"),o={},a=this.querySelectorAll("template[data-astro-template]");for(let r of a){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(o[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of n){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(o[r.getAttribute("name")||"default"]=r.innerHTML)}let c;try{c=this.hasAttribute("props")?u(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",y=this.getAttribute("component-export");throw y&&(s+=` (export ${y})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}await this.hydrator(this)(this.Component,c,o,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((e,n)=>{n.disconnect(),setTimeout(()=>this.childrenConnectedCallback(),0)}).observe(this,{childList:!0})}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}start(){let e=JSON.parse(this.getAttribute("opts")),n=this.getAttribute("client");if(Astro[n]===void 0){window.addEventListener(`astro:${n}`,()=>this.start(),{once:!0});return}Astro[n](async()=>{let o=this.getAttribute("renderer-url"),[a,{default:c}]=await Promise.all([import(this.getAttribute("component-url")),o?import(o):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(let r of i.split("."))this.Component=this.Component[r]}return this.hydrator=c,this.hydrate},e,this)}attributeChangedCallback(){this.hydrate()}},d.observedAttributes=["props"],d))}})();</script><astro-island uid="16TrhE" component-url="/_astro/accountsmove.38d4bfaf.js" component-export="default" renderer-url="/_astro/client.c4e17359.js" props="{}" ssr="" client="visible" opts="{&quot;name&quot;:&quot;Accountsmove&quot;,&quot;value&quot;:true}" await-children=""><div class="flex-l mx-52 bg-white px-10 pt-5 pb-5 rounded-md"><div class=""><div class="inline-flex ml-5 mr-5"><label for="amount" class="block text-sm font-medium text-gray-700 mr-3" data-svelte-h="svelte-1xpw1j4">Monto</label> <div class="relative mt-1 rounded-md shadow-sm"><div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none" data-svelte-h="svelte-11uejmq"><span class="text-gray-500 sm:text-sm">$</span></div> <input type="text" name="amount" id="amount" class="block w-full px-4 py-2 pr-12 border-t border-b border-l border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 pl-7 sm:text-sm" placeholder="0.00" autocomplete="off"> <div class="absolute inset-y-0 right-0 flex items-center" data-svelte-h="svelte-d5lps8"><label for="currency" class="sr-only">Currency</label></div></div></div></div> <div class="mt-8"><div class="inline-flex ml-5 mr-5"><label for="record_date" class="block text-sm font-medium text-gray-700 mr-3" data-svelte-h="svelte-1qxvfxw">Fecha</label> <div class="relative mt-1 rounded-md shadow-sm"><input type="text" name="record_date" id="record_date" class="block w-full px-4 py-2 pr-12 border-t border-b border-l border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 pl-7 sm:text-sm" placeholder="26/04/2023" value="2023-09-10 01:54:43"> <div class="absolute inset-y-0 right-0 flex items-center" data-svelte-h="svelte-107t5co"><label for="record_date" class="sr-only">record_date</label></div></div></div> <div class="inline-flex ml-5 mr-5"><label for="account" class="block text-sm font-medium text-gray-700 mr-3" data-svelte-h="svelte-1vn3e3r">Cuenta de origen</label> <div class="relative mt-1 rounded-md shadow-sm"><select class="block w-full px-4 py-2 pr-12 border-t border-b border-l border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 pl-7 sm:text-sm" name="account"></select> <div class="absolute inset-y-0 right-0 flex items-center" data-svelte-h="svelte-1lzq2h8"><label for="account" class="sr-only">account</label></div></div></div> <div class="inline-flex ml-5 mr-5"><label for="account" class="block text-sm font-medium text-gray-700 mr-3" data-svelte-h="svelte-1trf1st">Cuenta de destino</label> <div class="relative mt-1 rounded-md shadow-sm"><select class="block w-full px-4 py-2 pr-12 border-t border-b border-l border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500 pl-7 sm:text-sm" name="account"></select> <div class="absolute inset-y-0 right-0 flex items-center" data-svelte-h="svelte-1lzq2h8"><label for="account" class="sr-only">account</label></div></div></div></div> <div class="mt-10"><button type="button" id="submitButton" class="py-2 px-4 bg-green-700 hover:bg-green-400 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg " >Transferir</button></div></div></astro-island>
+
+		</main>
+	</body></html>
